@@ -1,0 +1,10 @@
+drop table if exists validate_queue;
+CREATE TABLE validate_queue(
+description TEXT NOT NULL,
+OrgImg TEXT NOT NULL,
+ImgId INTEGER NOT NULL,
+ObjId INTEGER NOT NULL,
+ID TEXT NOT NULL,
+n_distribute INTEGER NOT NULL);
+.mode csv
+.import 

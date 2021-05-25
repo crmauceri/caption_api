@@ -1,0 +1,2 @@
+update validate_queue set n_distribute = n_distribute + 1 where ID in ("13145718_174_2", "52969436_235_6", "24521296_244_8", "63690299_251_4", "66485310_252_5")
+update validate_queue set n_distribute = n_distribute + 1 where ID in ("13145718_174_2", "44867545_235_6", "24521296_244_8", "63690299_251_4", "60752728_252_5")

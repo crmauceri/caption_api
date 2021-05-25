@@ -1,0 +1,12 @@
+drop table if exists landmark_queue;
+CREATE TABLE landmark_queue(
+description TEXT NOT NULL,
+html_formatting TEXT NOT NULL,
+landmarkId TEXT NOT NULL,
+imgURL TEXT NOT NULL,
+imgId INTEGER NOT NULL,
+targetId INTEGER NOT NULL,
+annotationId TEXT NOT NULL,
+n_distribute INTEGER NOT NULL);
+.mode csv
+.import 

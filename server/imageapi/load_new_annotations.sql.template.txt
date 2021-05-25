@@ -1,0 +1,12 @@
+drop table if exists annotate_queue;
+CREATE TABLE annotate_queue(
+OrgImg TEXT NOT NULL,
+ObjImg TEXT NOT NULL,
+ImgId INTEGER NOT NULL,
+ObjId INTEGER NOT NULL,
+occurrences INTEGER NOT NULL,
+skipped INTEGER NOT NULL,
+n_distribute INTEGER NOT NULL,
+ID INTEGER NOT NULL);
+.mode csv
+.import 
