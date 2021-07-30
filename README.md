@@ -104,4 +104,18 @@ You can recruit your annotators from anywhere, collegues, friends, volunteers, e
 2. Use the Qualtrics survey "Annoymous Link" distribution url as the url in the template.
 3. The survey code will be the randomly generated completion code from the previous section
 4. You will need to write a script to cross reference the MTurk batch result CSV and the Qualtrics CSV. If the completion codes match, you should approve the worker's HIT.
+
+### MTurk Resources
+
+A small collection of resources for getting started with MTurk
+
+- Do a few AMT tutorials. I recommend starting with How to Label Thousands of Images in the Cloud but choose any that interest you from this list https://blog.mturk.com/tutorials/home
+- Read about ethical academic requesting http://www.wearedynamo.org/Guidelines_for_Academic_Requesters.pdf
+- Keep an eye on review sites. The following two sites are reviewing our lab. Make sure to address any Turker concerns and that pay is reasonable.
+	- https://turkerview.com/requesters/A37QWMEGD23IBK
+	- https://turkopticon.ucsd.edu/reports?id=A37QWMEGD23IBK
+- Forums where you can let workers know about HITs
+	- https://www.mturkcrowd.com/
+	- http://mturkforum.com/index.php
+	- Can find many more with Google
  
